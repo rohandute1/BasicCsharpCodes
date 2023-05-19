@@ -10,7 +10,7 @@ namespace BasicCsharpPrograms
     {
         public static void AddTwoNumbers()
         {
-            Console.WriteLine("Welcome to Basic C# programs");
+       
             Console.WriteLine("Please enter 1st number:");
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter 2nd number:");
@@ -18,14 +18,19 @@ namespace BasicCsharpPrograms
             int sum = x + y;
             Console.WriteLine("Sum is:{0}", sum);
         }
-        public static void Substract()
+        public static void SubstractTwoNumber()
         {
             Console.WriteLine("Please enter 1st number:");
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter 2nd number:");
             int y = Convert.ToInt32(Console.ReadLine());
-            int sub = x - y;
-            Console.WriteLine("Substraction is:{0}", sub);
+            int diff = x - y;
+            Console.WriteLine("Substraction is:{0}", diff);
+        }
+        public static void DivideTwoNumber(double first, double second) 
+        {
+            double div = first / second;
+            Console.WriteLine("Division is:{0}", div);
         }
     }
 }
