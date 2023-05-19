@@ -32,6 +32,9 @@ namespace BasicCsharpPrograms
                     int n = Convert.ToInt32(Console.ReadLine());
                     FibonoccieSeries.GenerateFibonoccieNumb(n);
                     break;
+                 default:
+                    Console.WriteLine("Please choose existing program only.");
+                    break;
             }
             Console.ReadLine();
         }
